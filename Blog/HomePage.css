@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(Nasihatler-arkaplan-resimleri-032.jpg.webp);
+    background-size: cover;
+}
+
+nav a {
+    color: white !important;
+    font-size: .875rem !important;
+    font-weight: 400 !important;
+    line-height: 1.5 !important;
+}
+.containerr{
+    margin-top: 100px;
+    margin-left: 235px;
+    font-size: 10px;
+}
+.box{
+    border: 10px solid rgb(49, 4, 81);
+    height: 420px;
+    background-color:rgb(116, 71, 151);
+border-radius: 5%;
+    padding: 30px;
+    text-align: center;
+    margin-right: 450px;
+    margin-left: 120px;
+    margin-top: 10px;
+    color:white;
+    font-family: sans-serif;
+
+}
+.box img{
+    text-align: right;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    transition: 0.5s;
+    cursor: pointer;
+    
+}
+.box img:hover{
+    transform: scale(0.9);
+}
+.box h1{
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: 100;
+}
+.box h5{
+    font-size: 20px;
+    font-weight: 100;
+    letter-spacing: 3px;
+
+}
+.box p{
+    text-align: justify;
+}
+ul{
+    margin: 0;
+    padding: 0;
+
+}
+
+.container li{
+    display:inline-block;
+    margin: 6px;
+    list-style: none;
+}
+.container li a{
+    text-shadow: 0.5px 0.5px;
+    font-size: 40px;
+    color:black;
+    transition: all ease-in-out 250ms;
+}
+.container li a:hover{
+    color:rgb(119, 117, 117);
+}
